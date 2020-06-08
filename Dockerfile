@@ -1,9 +1,9 @@
-FROM jdubz/elixir:1.7.3
+FROM jdubz/elixir:1.10.3
 
 MAINTAINER Josh Williams <vmizzle@gmail.com>
 
-ENV REFRESHED_AT=2018-09-25 \
-	NODE_VERSION=8.12.0
+ENV REFRESHED_AT=2020-06-08 \
+	NODE_VERSION=12.18.0
 
 RUN apk add --no-cache --virtual .node-build \
 		build-base \
